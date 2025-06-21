@@ -42,6 +42,7 @@ def check_and_make_directories(directories: List[str]):
 
 
 def main():
+    print("Started system")
     parser = build_parser()
     options = parser.parse_args()
     check_and_make_directories(
